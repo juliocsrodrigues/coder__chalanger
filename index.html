@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="container">
+        <label for="texto">Texto:</label>
+        <textarea id="texto" rows="4" cols="50"></textarea>
+
+        <br>
+
+        <button onclick="criptografar()">Criptografar</button>
+        <button onclick="descriptografar()">Descriptografar</button>
+
+        <br>
+
+        <label for="resultado">Resultado:</label>
+        <textarea id="resultado" rows="4" cols="50" readonly></textarea>
+
+        <button onclick="copiarResultado()">Copiar para Área de Transferência</button>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Julio Rodrigues.</p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
